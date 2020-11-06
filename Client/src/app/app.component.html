@@ -44,9 +44,11 @@
 
   <!-- Links -->
   <div class="card-container">
-    <video>
-      <source src="rtsp://live-edge01.telecentro.net.ar:80/live/26hd-360">
-    </video>
+    <video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered"
+       controls preload="auto" width="640" height="264"
+       data-setup='{"techOrder": ["flash", "html5"]}'>
+       <source src="rtsp://live-edge01.telecentro.net.ar:80/live/26hd-360" type='rtmp/mp4' />
+     </video>   
     
   </div>
 

@@ -1,0 +1,13 @@
+2020/10/27 19:02:59 [emerg] 37648#19684: invalid parameter "Content-length" in C:\xampp\htdocs\proyecUTV\nginx/conf/nginx.conf:32
+2020/10/27 19:03:33 [notice] 11636#9088: using the "select" event method
+2020/10/27 19:03:33 [notice] 11636#9088: nginx/1.14.1
+2020/10/27 19:03:33 [info] 11636#9088: OS: 260200 build:9200, "", suite:100, type:1
+2020/10/27 19:03:33 [notice] 11636#9088: start worker processes
+2020/10/27 19:03:33 [notice] 11636#9088: start worker process 17636
+2020/10/27 19:03:33 [notice] 17636#41796: nginx/1.14.1
+2020/10/27 19:03:33 [info] 17636#41796: OS: 260200 build:9200, "", suite:100, type:1
+2020/10/27 19:03:33 [notice] 17636#41796: create thread 32252
+2020/10/27 19:03:33 [notice] 17636#41796: create thread 13824
+2020/10/27 19:03:33 [notice] 17636#41796: create thread 41520
+2020/10/27 20:10:37 [emerg] 36540#23024: invalid port in url "rtsp://live-edge01.telecentro.net.ar:80/live/26hd-360" in C:\xampp\htdocs\proyecUTV\nginx/conf/nginx.conf:15
+2020/10/27 20:11:45 [emerg] 28268#33932: invalid port in url "rtsp://live-edge01.telecentro.net.ar:80/live/26hd-360" in C:\xampp\htdocs\proyecUTV\nginx/conf/nginx.conf:15
