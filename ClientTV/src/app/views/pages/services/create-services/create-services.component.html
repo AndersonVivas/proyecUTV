@@ -1,0 +1,45 @@
+<div class="main-content" style="background: white;">
+    <div class="container-fluid">
+        <mat-tab-group >
+            <mat-tab label="Service">
+                <form [formGroup]="servicesForm" style="margin-top: 30px;">
+                    <div class="row" style="margin: 0px !important;">
+                        <div class="col-5">
+                            <mat-form-field class="mat-form-field-fluid">
+                                <mat-label>Nombre</mat-label>
+                                <input id="Name" matInput formControlName="name" placeholder="Ingrese Nombre"
+                                    maxlength="128" autocomplete="off" />
+                            </mat-form-field>
+                        </div>
+                        <div class="col-5">
+                            <mat-form-field class="mat-form-field-fluid">
+                                <mat-label>Descripción</mat-label>
+                                <input id="Name" matInput formControlName="description" placeholder="Ingrese Nombre"
+                                    maxlength="128" autocomplete="off" />
+                            </mat-form-field>
+                        </div>
+                    </div>      
+                    <div class="row" style="margin: 0px !important;">
+                        <div class="col-5">
+                            <mat-form-field class="mat-form-field-fluid">
+                                <mat-label>Icono de Menu</mat-label>
+                                <input id="Name" matInput formControlName="icon" placeholder="Ingrese Nombre"
+                                    maxlength="128" autocomplete="off" />
+                            </mat-form-field>
+                        </div>
+                        <div class="col-5">
+                            <mat-form-field class="mat-form-field-fluid">
+                                <mat-label>Link del Servicio</mat-label>
+                                <input id="Name" matInput formControlName="linkServices" placeholder="Ingrese Nombre"
+                                    maxlength="128" autocomplete="off" />
+                            </mat-form-field>
+                        </div>
+                    </div>                
+                </form>
+            </mat-tab>
+            <mat-tab label="Program"> Content 2 </mat-tab>
+        </mat-tab-group>
+
+    </div>
+
+</div>
