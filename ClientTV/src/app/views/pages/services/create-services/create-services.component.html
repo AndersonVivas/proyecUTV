@@ -1,6 +1,6 @@
 <div class="main-content" style="background: white;">
     <div class="container-fluid">
-        <mat-tab-group >
+        <mat-tab-group>
             <mat-tab label="Service">
                 <form [formGroup]="servicesForm" style="margin-top: 30px;">
                     <div class="row" style="margin: 0px !important;">
@@ -18,7 +18,7 @@
                                     maxlength="128" autocomplete="off" />
                             </mat-form-field>
                         </div>
-                    </div>      
+                    </div>
                     <div class="row" style="margin: 0px !important;">
                         <div class="col-5">
                             <mat-form-field class="mat-form-field-fluid">
@@ -34,7 +34,21 @@
                                     maxlength="128" autocomplete="off" />
                             </mat-form-field>
                         </div>
-                    </div>                
+                    </div>
+                    <div class="row" style="margin: 0px !important;">
+                        <div class="col-5">
+                            <mat-label>Icono de Menu </mat-label>
+                            <mat-slide-toggle formControlName="status">{{ servicesForm.value.status? 'Activo':'Inactivo' }}
+                            </mat-slide-toggle>
+                        </div>
+                        <div class="col-5">
+                            <mat-form-field class="mat-form-field-fluid">
+                                <mat-label>Link del Servicio</mat-label>
+                                <input id="Name" matInput formControlName="type" placeholder="Ingrese Nombre"
+                                    maxlength="128" autocomplete="off" />
+                            </mat-form-field>
+                        </div>
+                    </div>
                 </form>
             </mat-tab>
             <mat-tab label="Program"> Content 2 </mat-tab>

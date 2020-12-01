@@ -18,6 +18,7 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
 import { CreateServicesComponent } from './views/pages/services/create-services/create-services.component';
 import { MatFormFieldControl, MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 
 @NgModule({
   imports: [
@@ -31,6 +32,7 @@ import { MatInputModule } from '@angular/material/input';
     MatTabsModule,
     MatFormFieldModule,
     MatInputModule,
+    MatSlideToggleModule,
     AgmCoreModule.forRoot({
       apiKey: 'YOUR_GOOGLE_MAPS_API_KEY'
     })
